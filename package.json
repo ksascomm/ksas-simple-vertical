@@ -1,0 +1,12 @@
+{
+	"name": "ksas-simple-vertical",
+	"version": "1.0.0",
+	"description": "Child Theme of KSAS Simple with a vertical menu",
+	"type": "module",
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"vite": "^8.3.4"
+	}
+}
