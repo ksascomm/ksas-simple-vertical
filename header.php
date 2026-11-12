@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<?php endif; ?>
 					</div>
 					<div class="lg:col-span-2">
-						<h1 class="mt-4 font-serif-bold font-weight-bold site-title">
+						<h1 class="mt-4 site-title">
 						<a class="text-white hover:text-grey" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 							<?php bloginfo( 'name' ); ?>
 							<?php
@@ -77,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							if (
 								$ksas_simple_description || is_customize_preview() ) :
 								$ksas_simple_description = get_bloginfo( 'description', 'display' );
-								echo '<span class="block pt-1 text-lg font-normal lg:text-xl">' . $ksas_simple_description . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+								echo '<span class="block pt-1 text-lg lg:text-xl">' . $ksas_simple_description . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
 								?>
 								<?php endif; ?>
 						</a>
